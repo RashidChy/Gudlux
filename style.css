@@ -102,7 +102,12 @@ p {
     height: 132px;
     visibility: hidden;
   }
+
+  .home p {
+    text-align: center;
+  }
 }
+
 .min-order {
   color: rgb(255, 115, 115);
 }
