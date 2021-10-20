@@ -1,0 +1,108 @@
+.home {
+  background-color: rgb(16, 23, 46) !important;
+}
+header img {
+  width: 250px;
+  height: 250px;
+}
+
+.banner img {
+  width: 500px;
+  height: 500px;
+}
+
+p {
+  color: lavender;
+}
+
+.menu nav {
+  background-color: rgb(16, 23, 46) !important;
+  margin-top: 10px;
+}
+
+.nav-item a {
+  color: lavender !important;
+  margin: 90px;
+  font-size: 1.5rem;
+}
+
+.nav-item a:hover {
+  color: gold !important;
+}
+
+.products-heading {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 95px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(23, 24, 59);
+  padding-top: 100px;
+}
+#products {
+  background-color: rgb(238, 238, 238);
+  padding-bottom: 90px;
+}
+.card {
+  box-shadow: 2px 5px 5px rgb(149, 152, 158);
+  margin: 0px 20px;
+  height: 900px;
+}
+.card:hover {
+  box-shadow: 3px 7px 7px rgb(149, 152, 158);
+}
+.pricing {
+  margin-top: 60px;
+}
+
+.card-text {
+  color: rgb(0, 0, 95);
+}
+.card-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.order-Btn {
+  border-radius: 5px;
+  background-color: rgba(3, 17, 80, 0.979);
+  color: lavender;
+}
+
+.order-Btn:hover {
+  color: greenyellow;
+}
+#pricing {
+  background-color: lawngreen !important;
+  margin: 0%;
+}
+.message {
+  display: inline;
+  color: black;
+  visibility: hidden;
+}
+.message a {
+  color: rgb(19, 160, 6);
+  text-decoration: none;
+  font-weight: bolder;
+}
+.card img {
+  background-color: rgb(16, 23, 46);
+}
+.navbar button {
+  background-color: lavender;
+  padding: 0px 160px;
+}
+
+@media only screen and (max-width: 600px) {
+  .small img {
+    width: 100px;
+    height: 300px;
+  }
+  .carouselLogo img {
+    width: 50px;
+    height: 132px;
+    visibility: hidden;
+  }
+}
+.min-order {
+  color: rgb(255, 115, 115);
+}
