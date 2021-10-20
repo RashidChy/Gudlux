@@ -106,6 +106,18 @@ p {
   .home p {
     text-align: center;
   }
+
+  .menu nav {
+    background-color: rgb(16, 23, 46) !important;
+    margin-top: 0px;
+  }
+
+  .nav-item a {
+    color: lavender !important;
+    margin: 10px;
+    font-size: 1rem;
+    text-align: center;
+  }
 }
 
 .min-order {
